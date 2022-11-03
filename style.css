@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  background-color: rgb(247, 195, 195);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
+  position: relative;
+}
+.container div .total-char{
+  font-size: larger;
+  font-weight: bold;
+}
+.container div .total-char span{
+  color: blue;
+}
+.container div .total-Remaining{
+  position: absolute;
+  right: 35px;
+  bottom: 38px;
+  font-size: larger;
+  font-weight: bold;
+}
+.container div .total-Remaining span{
+  color: red;
+  font-size: 20px;
+}
+
+.textbox{
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  resize: none;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid darkgray;
+}
